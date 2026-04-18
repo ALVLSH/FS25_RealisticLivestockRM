@@ -7,11 +7,11 @@
 		<text name="fillType_bull_holstein" text="Голштинский бык"/>
 		<text name="fillType_bull_angus" text="Ангусский бык"/>
 		<text name="fillType_bull_limousin" text="Лимузинский бык"/>
-		<text name="fillType_cow_hereford" text="Hereford"/>
-		<text name="fillType_bull_hereford" text="Hereford Bull"/>
+		<text name="fillType_cow_hereford" text="Герефордская"/>
+		<text name="fillType_bull_hereford" text="Герефордский бык"/>
 		<text name="fillType_cow_highland_cattle" text="Хайленд"/>
 		<text name="fillType_bull_highland_cattle" text="Бык Хайленд"/>
-		<text name="animal_descriptionBullFeed" text="Быки любят траву, сено и TMR."/>
+		<text name="animal_descriptionBullFeed" text="Быки любят траву, сено и моносмесь."/>
 		<text name="animal_descriptionBullYoung" text="Это теленок-самец."/>
 		<text name="animal_descriptionBullReproduction" text="Быки, которые здоровы и старше 12 месяцев, могут размножаться."/>
 		<text name="rl_descriptionCowReproduction" text="Коровы, которые здоровы и старше 12 месяцев, могут размножаться."/>
@@ -130,7 +130,7 @@
 		<text name="rl_ui_health" text="Здоровье"/>
 		<text name="rl_ui_fertility" text="Фертильность"/>
 
-		<text name="rl_ui_genetics_infertile" text="Infertile"/>
+		<text name="rl_ui_genetics_infertile" text="Бесплодный"/>
 		<text name="rl_ui_genetics_extremelyLow" text="Крайне низкий"/>
 		<text name="rl_ui_genetics_veryLow" text="Очень низкий"/>
 		<text name="rl_ui_genetics_low" text="Низкий"/>
@@ -146,282 +146,282 @@
 		<text name="rl_ui_genetics_veryGood" text="Очень хороший"/>
 		<text name="rl_ui_genetics_extremelyGood" text="Крайне хороший"/>
 
-		<text name="rl_ui_buySelected" text="Buy selected"/>
-		<text name="rl_ui_sellSelected" text="Sell selected"/>
-		<text name="rl_ui_moveSelected" text="Move selected"/>
-		<text name="rl_ui_buyConfirmation" text="Are you sure you want to buy %s animals for %s?" tag="format"/>
-		<text name="rl_ui_sellConfirmation" text="Are you sure you want to sell %s animals for %s?" tag="format"/>
-		<text name="rl_ui_moveConfirmation" text="Are you sure you want to move %s animals?" tag="format"/>
-		<text name="rl_ui_buyBulkResult" text="%s animals bought for %s" tag="format"/>
-		<text name="rl_ui_sellBulkResult" text="%s animals sold for %s" tag="format"/>
-		<text name="rl_ui_moveBulkResult" text="%s animals moved" tag="format"/>
-		<text name="rl_ui_moveTab" text="Move"/>
-		<text name="rl_ui_moveSingle" text="Move"/>
-		<text name="rl_ui_moveSelectDestination" text="Select Destination"/>
-		<text name="rl_ui_moveNoDestinations" text="No destinations available for this animal type."/>
-		<text name="rl_ui_moveEPPAgeFormat" text="ages %d-%d mo" tag="format"/>/
-		<text name="rl_ui_moveValidSummary" text="%d animal(s) will be moved" tag="format"/>
-		<text name="rl_ui_moveRejectedAge" text="%d animal(s) skipped: does not meet age requirement (%d-%d months)" tag="format"/>
-		<text name="rl_ui_moveRejectedCapacity" text="%d animal(s) skipped: not enough space at destination" tag="format"/>
-		<text name="rl_ui_moveAllRejected" text="No animals can be moved to this destination."/>
-		<text name="rl_ui_moveBulkConfirmTitle" text="Move Animals"/>
-		<text name="rl_ui_moveErrorNoPermission" text="You don't have permission to move animals here."/>
-		<text name="rl_ui_moveErrorNotSupported" text="This destination doesn't support this animal type."/>
-		<text name="rl_ui_moveErrorNoSpace" text="Not enough space at the destination."/>/
+		<text name="rl_ui_buySelected" text="Купить выбранное"/>
+		<text name="rl_ui_sellSelected" text="Продать выбранное"/>
+		<text name="rl_ui_moveSelected" text="Переместить выбранное"/>
+		<text name="rl_ui_buyConfirmation" text="Вы уверены, что хотите купить %s животных в %s?" tag="format"/>
+		<text name="rl_ui_sellConfirmation" text="Вы уверены, что хотите продать %s животных из %s?" tag="format"/>
+		<text name="rl_ui_moveConfirmation" text="Вы уверены, что хотите переместить %s животных?" tag="format"/>
+		<text name="rl_ui_buyBulkResult" text="%s животных куплено в %s" tag="format"/>
+		<text name="rl_ui_sellBulkResult" text="%s животных продано из %s" tag="format"/>
+		<text name="rl_ui_moveBulkResult" text="%s животных перемещено" tag="format"/>
+		<text name="rl_ui_moveTab" text="Переместить"/>
+		<text name="rl_ui_moveSingle" text="Переместить"/>
+		<text name="rl_ui_moveSelectDestination" text="Выбрать назначение"/>
+		<text name="rl_ui_moveNoDestinations" text="Для этого вида животных нет доступных мест назначения."/>
+		<text name="rl_ui_moveEPPAgeFormat" text="возраст %d-%d месяцев" tag="format"/>/
+		<text name="rl_ui_moveValidSummary" text="%d животное(ые) будут перемещены" tag="format"/>
+		<text name="rl_ui_moveRejectedAge" text="%d животное(ые) пропущены: не соответствуют возрастным требованиям (%d-%d месяцев)" tag="format"/>
+		<text name="rl_ui_moveRejectedCapacity" text="%d животное(ые) пропущены: недостаточно места в месте назначения" tag="format"/>
+		<text name="rl_ui_moveAllRejected" text="Никакие животные не могут быть перевезены в это место назначения."/>
+		<text name="rl_ui_moveBulkConfirmTitle" text="Перемещение животных"/>
+		<text name="rl_ui_moveErrorNoPermission" text="У Вас нет разрешения перемещать сюда животных."/>
+		<text name="rl_ui_moveErrorNotSupported" text="Это место назначения не поддерживает данный тип животных."/>
+		<text name="rl_ui_moveErrorNoSpace" text="Недостаточно мест в месте назначения."/>/
 
-		<text name="rl_ui_monitor" text="Monitor"/>
-		<text name="rl_ui_monitorSubscriptions" text="Monitor Subscriptions"/>
-		<text name="finance_monitorSubscriptions" text="Monitor Subscriptions"/>
-		<text name="rl_ui_monitorFee" text="Monitor fee"/>
-		<text name="rl_ui_applyMonitor" text="Apply Monitor"/>
-		<text name="rl_ui_removeMonitor" text="Remove Monitor"/>
-		<text name="rl_ui_input_food" text="Food"/>
-		<text name="rl_ui_input_water" text="Water"/>
-		<text name="rl_ui_input_straw" text="Straw"/>
-		<text name="rl_ui_output_milk" text="Milk"/>
-		<text name="rl_ui_output_manure" text="Manure"/>
-		<text name="rl_ui_output_liquidManure" text="Liquid manure"/>
-		<text name="rl_ui_output_pallets_eggs" text="Eggs"/>
-		<text name="rl_ui_output_pallets_wool" text="Wool"/>
-		<text name="rl_ui_output_pallets_goatMilk" text="Goat milk"/>
-		<text name="rl_ui_amountPerDay" text="%.0fL / day" tag="format"/>
-		<text name="rl_ui_feePerMonth" text="%s / month" tag="format"/>
+		<text name="rl_ui_monitor" text="Отслеживание"/>
+		<text name="rl_ui_monitorSubscriptions" text="Начать отслеживание"/>
+		<text name="finance_monitorSubscriptions" text="Начать отслеживание"/>
+		<text name="rl_ui_monitorFee" text="Отслеживание оплаты"/>
+		<text name="rl_ui_applyMonitor" text="Включить отслеживание"/>
+		<text name="rl_ui_removeMonitor" text="Отключить отслеживание"/>
+		<text name="rl_ui_input_food" text="Корм"/>
+		<text name="rl_ui_input_water" text="Вода"/>
+		<text name="rl_ui_input_straw" text="Солома"/>
+		<text name="rl_ui_output_milk" text="Молоко"/>
+		<text name="rl_ui_output_manure" text="Навоз"/>
+		<text name="rl_ui_output_liquidManure" text="Жидкий навоз"/>
+		<text name="rl_ui_output_pallets_eggs" text="Яйца"/>
+		<text name="rl_ui_output_pallets_wool" text="Шерсть"/>
+		<text name="rl_ui_output_pallets_goatMilk" text="Козье молоко"/>
+		<text name="rl_ui_amountPerDay" text="%.0fL / день" tag="format"/>
+		<text name="rl_ui_feePerMonth" text="%s / месяц" tag="format"/>
 
-		<text name="rl_ui_animalType" text="Type"/>
-		<text name="rl_ui_amountMonitored" text="Monitored"/>
-		<text name="rl_ui_production" text="Products"/>
-		<text name="rl_ui_applyAllMonitor" text="Apply All Monitors"/>
-		<text name="rl_ui_removeAllMonitor" text="Remove All Monitors"/>
-		<text name="rl_ui_fee" text="Fee"/>
+		<text name="rl_ui_animalType" text="Вид"/>
+		<text name="rl_ui_amountMonitored" text="Отслеживаемый"/>
+		<text name="rl_ui_production" text="Производство"/>
+		<text name="rl_ui_applyAllMonitor" text="Включить все отслеживания"/>
+		<text name="rl_ui_removeAllMonitor" text="Отключить все отслеживания"/>
+		<text name="rl_ui_fee" text="Оплата"/>
 
-		<text name="rl_ui_leftEarTag" text="Left Ear Tag"/>
-		<text name="rl_ui_rightEarTag" text="Right Ear Tag"/>
-		<text name="rl_ui_backgroundColour" text="Background Colour"/>
-		<text name="rl_ui_backgroundHue" text="Background Hue"/>
-		<text name="rl_ui_backgroundRgb" text="Background RGB"/>
-		<text name="rl_ui_textColour" text="Text Colour"/>
-		<text name="rl_ui_textHue" text="Text Hue"/>
-		<text name="rl_ui_textRgb" text="Text RGB"/>
+		<text name="rl_ui_leftEarTag" text="Бирка на левом ухе"/>
+		<text name="rl_ui_rightEarTag" text="Бирка на правом ухе"/>
+		<text name="rl_ui_backgroundColour" text="Цвет фона"/>
+		<text name="rl_ui_backgroundHue" text="Оттенок фона"/>
+		<text name="rl_ui_backgroundRgb" text="Фоновый RGB"/>
+		<text name="rl_ui_textColour" text="Цвет текста"/>
+		<text name="rl_ui_textHue" text="Оттенок текста"/>
+		<text name="rl_ui_textRgb" text="Текст RGB"/>
 
-		<text name="rl_ui_formatMonths" text="%s months"/>
-		<text name="rl_ui_formatMonth" text="%s month"/>
-		<text name="rl_ui_notPregnant" text="Not Pregnant"/>
-		<text name="rl_ui_any" text="Any"/>
-		<text name="rl_ui_pregnancy" text="Pregnancy"/>
-		<text name="rl_ui_productivity" text="Productivity"/>
-		<text name="rl_ui_selectAll" text="Select All"/>
-		<text name="rl_ui_selectNone" text="Select None"/>
-		<text name="rl_ui_filters" text="Filters"/>
-		<text name="rl_ui_doesntHaveName" text="No Name"/>
-		<text name="rl_ui_doesHaveName" text="Has Name"/>
-
-
-
-		<text name="rl_ui_castrated" text="Castrated"/>
-		<text name="rl_ui_castrate" text="Castrate"/>
-		<text name="rl_ui_importance" text="Importance"/>
-		<text name="rl_ui_type" text="Type"/>
-		<text name="rl_ui_date" text="Date"/>
-		<text name="rl_ui_message" text="Message"/>
-		<text name="rl_ui_messages" text="Messages"/>
-		<text name="rl_ui_unknownCauses" text="unknown causes"/>
-		<text name="rl_ui_messageNumber" text="%s-%s of %s"/>
-		<text name="rl_ui_deleteMessage" text="Delete Message"/>
-		<text name="rl_ui_unreadMessages" text="Husbandry '%s' has unread messages!"/>
-		<text name="rl_ui_herdsman" text="Herdsman"/>
-		<text name="rl_ui_budget" text="Budget"/>
-		<text name="rl_ui_budgetType" text="Budget Type"/>
-		<text name="rl_ui_fixed" text="Fixed"/>
-		<text name="rl_ui_percentage" text="Percentage"/>
-		<text name="rl_ui_maxAnimals" text="Max Animals"/>
-		<text name="rl_ui_infinite" text="Infinite"/>
-		<text name="rl_ui_herdsmanRecentlyBought" text="Recent Herdsman Purchase"/>
-		<text name="rl_ui_previousWage" text="Previous Wage"/>
-		<text name="rl_ui_herdsmanWages" text="Herdsman Wages"/>
-		<text name="finance_herdsmanWages" text="Herdsman Wages"/>
-		<text name="rl_ui_medicine" text="Medicine"/>
-		<text name="finance_medicine" text="Medicine"/>
-		<text name="rl_ui_semenPurchase" text="Inseminant Purchase"/>
-		<text name="rl_ui_semenPurchase_github" text="Semen Purchase"/>
-		<text name="finance_semenPurchase" text="Inseminant Purchase"/>
-		<text name="finance_semenPurchase_github" text="Semen Purchase"/>
-		<text name="rl_ui_noDiseases" text="No Diseases"/>
-		<text name="rl_ui_onlyDiseases" text="Only Diseases"/>
-		<text name="rl_ui_naming" text="Naming"/>
-		<text name="rl_ui_alphabetical" text="Alphabetical"/>
-		<text name="rl_ui_breed" text="Breed"/>
-		<text name="rl_ui_dontMark" text="Don't Mark"/>
-		<text name="rl_ui_mark" text="Mark"/>
-		<text name="rl_ui_unmark" text="Unmark"/>
-		<text name="rl_ui_favourite" text="Favourite"/>
-		<text name="rl_ui_unFavourite" text="Unfavourite"/>
-		<text name="rl_ui_quantity" text="Quantity"/>
-		<text name="rl_ui_dewar" text="Dewar"/>
-		<text name="rl_ui_semenPurchase_successful" text="Artificial inseminant successfully purchased. You can pick it up at the store"/>
-		<text name="rl_ui_semenPurchase_successful_github" text="Semen successfully purchased. You can pick it up at the store"/>
-		<text name="rl_ui_semenPurchase_unsuccessful" text="Artificial inseminant could not be purchased"/>
-		<text name="rl_ui_semenPurchase_unsuccessful_github" text="Semen could not be purchased"/>
-		<text name="rl_ui_earTag" text="Ear Tag"/>
-		<text name="rl_ui_species" text="Species"/>
-		<text name="rl_ui_strawSingle" text="Straw"/>
-		<text name="rl_ui_strawMultiple" text="Straws"/>
-		<text name="rl_ui_artificialInsemination" text="Artificial Insemination"/>
-		<text name="rl_ui_semenPurchaseNoPermission" text="You don't have to permission to trade animals or purchase inseminant."/>
-		<text name="rl_ui_semenPurchaseNoPermission_github" text="You don't have to permission to trade animals or purchase semen."/>
-		<text name="rl_ui_semenPurchaseNoMoney" text="You don't have enough money to purchase this inseminant."/>
-		<text name="rl_ui_semenPurchaseNoMoney_github" text="You don't have enough money to purchase this semen."/>
-		<text name="rl_ui_takeStraw" text="Take Straw"/>
-		<text name="rl_ui_inseminateAnimal" text="Inseminate %s"/>
-		<text name="rl_ui_inseminate" text="Inseminate"/>
-		<text name="rl_ui_strawEmpty" text="This straw is empty"/>
-		<text name="rl_ui_averageSuccessColon" text="Average Success: "/>
-		<text name="rl_ui_averageSuccess" text="Average Success"/>
-		<text name="rl_ui_success" text="Success"/>
-		<text name="rl_ui_save" text="Save"/>
-		<text name="rl_ui_load" text="Load"/>
-		<text name="rl_ui_saveProfile" text="Save Profile"/>
-		<text name="rl_ui_loadProfile" text="Load Profile"/>
-
-		<text name="rl_ui_healthy" text="Healthy"/>
-		<text name="rl_ui_hasDisease" text="Has Disease"/>
-		<text name="rl_ui_diseasedAnimals" text="Diseased Animals"/>
+		<text name="rl_ui_formatMonths" text="%s месяцев"/>
+		<text name="rl_ui_formatMonth" text="%s месяц"/>
+		<text name="rl_ui_notPregnant" text="Не беременна"/>
+		<text name="rl_ui_any" text="Любой"/>
+		<text name="rl_ui_pregnancy" text="Беременность"/>
+		<text name="rl_ui_productivity" text="Производительность"/>
+		<text name="rl_ui_selectAll" text="Выбрать всё"/>
+		<text name="rl_ui_selectNone" text="Выбрать пустое"/>
+		<text name="rl_ui_filters" text="Фильтры"/>
+		<text name="rl_ui_doesntHaveName" text="Без имени"/>
+		<text name="rl_ui_doesHaveName" text="Имеет имя"/>
 
 
-		<text name="rl_insemination_male" text="Only females can be artificially inseminated"/>
-		<text name="rl_insemination_pregnant" text="This animal is already pregnant"/>
-		<text name="rl_insemination_animalType" text="Animal must be of the same species as the father"/>
-		<text name="rl_insemination_inseminated" text="This animal has already been artificially inseminated"/>
-		<text name="rl_insemination_recovering" text="This animal is still recovering from its previous pregnancy"/>
-		<text name="rl_insemination_father" text="Inbreeding is not permitted"/>
-		<text name="rl_insemination_young" text="This animal is too young to be artificially inseminated"/>
+
+		<text name="rl_ui_castrated" text="Кастрированный"/>
+		<text name="rl_ui_castrate" text="Кастрировать"/>
+		<text name="rl_ui_importance" text="Значение"/>
+		<text name="rl_ui_type" text="Тип"/>
+		<text name="rl_ui_date" text="Дата"/>
+		<text name="rl_ui_message" text="Сообщение"/>
+		<text name="rl_ui_messages" text="Сообщения"/>
+		<text name="rl_ui_unknownCauses" text="неизвестные причины"/>
+		<text name="rl_ui_messageNumber" text="%s-%s из %s"/>
+		<text name="rl_ui_deleteMessage" text="Удалить сообщения"/>
+		<text name="rl_ui_unreadMessages" text="У хозяйства есть '%s' непрочитанных сообщения!"/>
+		<text name="rl_ui_herdsman" text="ИИ-пастух"/>
+		<text name="rl_ui_budget" text="Бюджет"/>
+		<text name="rl_ui_budgetType" text="Тип бюджета"/>
+		<text name="rl_ui_fixed" text="Исправлено"/>
+		<text name="rl_ui_percentage" text="Процент"/>
+		<text name="rl_ui_maxAnimals" text="Макс. животных"/>
+		<text name="rl_ui_infinite" text="Бесконечный"/>
+		<text name="rl_ui_herdsmanRecentlyBought" text="Недавний найм ИИ-пастуха"/>
+		<text name="rl_ui_previousWage" text="Предыдущая заработная плата ИИ-пастуха"/>
+		<text name="rl_ui_herdsmanWages" text="Заработная плата ИИ-пастуха"/>
+		<text name="finance_herdsmanWages" text="Заработная плата ИИ-пастуха"/>
+		<text name="rl_ui_medicine" text="Лечение"/>
+		<text name="finance_medicine" text="Лечение"/>
+		<text name="rl_ui_semenPurchase" text="Покупки для оплодотворения"/>
+		<text name="rl_ui_semenPurchase_github" text="Покупка спермы"/>
+		<text name="finance_semenPurchase" text="Покупки для оплодотворения"/>
+		<text name="finance_semenPurchase_github" text="Покупка спермы"/>
+		<text name="rl_ui_noDiseases" text="Нет болезней"/>
+		<text name="rl_ui_onlyDiseases" text="Только болезни"/>
+		<text name="rl_ui_naming" text="По имени"/>
+		<text name="rl_ui_alphabetical" text="По алфавиту"/>
+		<text name="rl_ui_breed" text="Разводить"/>
+		<text name="rl_ui_dontMark" text="Не помечать"/>
+		<text name="rl_ui_mark" text="Пометить"/>
+		<text name="rl_ui_unmark" text="Снять отметку"/>
+		<text name="rl_ui_favourite" text="В избранное"/>
+		<text name="rl_ui_unFavourite" text="Из избранного"/>
+		<text name="rl_ui_quantity" text="Количество"/>
+		<text name="rl_ui_dewar" text="сосуд Дьюара"/>
+		<text name="rl_ui_semenPurchase_successful" text="Препарат для искусственного оплодотворения успешно приобретен. Вы можете забрать его в магазине"/>
+		<text name="rl_ui_semenPurchase_successful_github" text="Сперма успешно куплена. Вы можете забрать ее в магазине"/>
+		<text name="rl_ui_semenPurchase_unsuccessful" text="Не удалось приобрести искусственное оплодотворение"/>
+		<text name="rl_ui_semenPurchase_unsuccessful_github" text="Сперму приобрести не удалось"/>
+		<text name="rl_ui_earTag" text="Ушная бирка"/>
+		<text name="rl_ui_species" text="Порода"/>
+		<text name="rl_ui_strawSingle" text="Соломинка"/>
+		<text name="rl_ui_strawMultiple" text="Соломинки"/>
+		<text name="rl_ui_artificialInsemination" text="Искусственное оплодотворение"/>
+		<text name="rl_ui_semenPurchaseNoPermission" text="Вам не нужно получать разрешение на торговлю животными или покупку осеменителя."/>
+		<text name="rl_ui_semenPurchaseNoPermission_github" text="Вам не нужно получать разрешение на торговлю животными или покупку спермы."/>
+		<text name="rl_ui_semenPurchaseNoMoney" text="У Вас недостаточно денег, чтобы купить это средство для оплодотворения."/>
+		<text name="rl_ui_semenPurchaseNoMoney_github" text="У Вас недостаточно денег, чтобы купить эту сперму."/>
+		<text name="rl_ui_takeStraw" text="Возьмите соломинку"/>
+		<text name="rl_ui_inseminateAnimal" text="Осеменить %s"/>
+		<text name="rl_ui_inseminate" text="Осеменять"/>
+		<text name="rl_ui_strawEmpty" text="Эта соломинка пуста"/>
+		<text name="rl_ui_averageSuccessColon" text="Средний успех: "/>
+		<text name="rl_ui_averageSuccess" text="Средний успех"/>
+		<text name="rl_ui_success" text="Успех"/>
+		<text name="rl_ui_save" text="Сохранить"/>
+		<text name="rl_ui_load" text="Загрузить"/>
+		<text name="rl_ui_saveProfile" text="Сохранить профиль"/>
+		<text name="rl_ui_loadProfile" text="Загрузить профиль"/>
+
+		<text name="rl_ui_healthy" text="Здоровое"/>
+		<text name="rl_ui_hasDisease" text="Больное"/>
+		<text name="rl_ui_diseasedAnimals" text="Больные животные"/>
 
 
-		<text name="rl_mark_aiManager_sell" text="Herdsman marked for selling"/>
-		<text name="rl_mark_aiManager_castrate" text="Herdsman marked for castrating"/>
-		<text name="rl_mark_aiManager_disease" text="Herdsman marked for treating"/>
-		<text name="rl_mark_aiManager_ai" text="Herdsman marked for artificial insemination"/>
-		<text name="rl_mark_player" text="Marked by player"/>
+		<text name="rl_insemination_male" text="Искусственному оплодотворению могут быть подвергнуты только самки"/>
+		<text name="rl_insemination_pregnant" text="Это животное уже беременно"/>
+		<text name="rl_insemination_animalType" text="Животное должно принадлежать к тому же виду, что и осеменитель"/>
+		<text name="rl_insemination_inseminated" text="Это животное уже было искусственно оплодотворено"/>
+		<text name="rl_insemination_recovering" text="Это животное все еще восстанавливается после своей предыдущей беременности"/>
+		<text name="rl_insemination_father" text="Инбридинг не допускается"/>
+		<text name="rl_insemination_young" text="Это животное слишком молодо для искусственного оплодотворения"/>
+
+
+		<text name="rl_mark_aiManager_sell" text="ИИ-пастух пометил для покупки"/>
+		<text name="rl_mark_aiManager_castrate" text="ИИ-пастух приготовил к кастрации"/>
+		<text name="rl_mark_aiManager_disease" text="ИИ-пастух отметил для лечения"/>
+		<text name="rl_mark_aiManager_ai" text="ИИ-пастух назначил для искусственного оплодотворения"/>
+		<text name="rl_mark_player" text="Отмечен игроком"/>
 
 
 		<!-- AI - BUYING -->
 
 
-		<text name="rl_ui_herdsmanTooltip_buy_enabled_1" text="The herdsman will not purchase animals"/>
-		<text name="rl_ui_herdsmanTooltip_buy_enabled_2" text="The herdsman will purchase animals"/>
+		<text name="rl_ui_herdsmanTooltip_buy_enabled_1" text="ИИ-пастух не будет покупать животных"/>
+		<text name="rl_ui_herdsmanTooltip_buy_enabled_2" text="ИИ-пастух будет покупать животных"/>
 
-		<text name="rl_ui_herdsmanTooltip_buy_budget|type_1" text="Purchasing budget is a fixed amount"/>
-		<text name="rl_ui_herdsmanTooltip_buy_budget|type_2" text="Purchasing budget is a percentage of your farm's money"/>
+		<text name="rl_ui_herdsmanTooltip_buy_budget|type_1" text="Бюджет закупок - фиксированная сумма"/>
+		<text name="rl_ui_herdsmanTooltip_buy_budget|type_2" text="Бюджет закупок - процент от выручки вашей фермы"/>
 
-		<text name="rl_ui_herdsmanTooltip_buy_budget|fixed" text="The herdsman will spend up to %s per day"/>
-		<text name="rl_ui_herdsmanTooltip_buy_budget|percentage" text="The herdsman will spend up to %s of your farm's money per day"/>
+		<text name="rl_ui_herdsmanTooltip_buy_budget|fixed" text="ИИ-пастух будет тратить до %s в день"/>
+		<text name="rl_ui_herdsmanTooltip_buy_budget|percentage" text="ИИ-пастух потратит до %s из денег Вашей фермы в день"/>
 
-		<text name="rl_ui_herdsmanTooltip_buy_maxAnimals" text="The herdsman will buy up to %s animals per day"/>
+		<text name="rl_ui_herdsmanTooltip_buy_maxAnimals" text="ИИ-пастух будет покупать до %s животных в день"/>
 
-		<text name="rl_ui_herdsmanTooltip_buy_breed" text="The herdsman will only buy %s animals"/>
-		<text name="rl_ui_herdsmanTooltip_buy_breed_any" text="The herdsman will buy any breed"/>
+		<text name="rl_ui_herdsmanTooltip_buy_breed" text="ИИ-пастух купит только %s животных"/>
+		<text name="rl_ui_herdsmanTooltip_buy_breed_any" text="ИИ-пастух купит любую породу"/>
 
-		<text name="rl_ui_herdsmanTooltip_buy_diseases_1" text="The herdsman will only purchase animals without any diseases"/>
-		<text name="rl_ui_herdsmanTooltip_buy_diseases_2" text="The herdsman will purchase animals regardless of diseases"/>
+		<text name="rl_ui_herdsmanTooltip_buy_diseases_1" text="ИИ-пастух будет приобретать только тех животных, которые не имеют каких-либо заболеваний"/>
+		<text name="rl_ui_herdsmanTooltip_buy_diseases_2" text="ИИ-пастух приобретет животных независимо от их заболеваний"/>
 
-		<text name="rl_ui_herdsmanTooltip_buy_gender_1" text="The herdsman will only purchase female animals"/>
-		<text name="rl_ui_herdsmanTooltip_buy_gender_2" text="The herdsman will purchase female and male animals"/>
-		<text name="rl_ui_herdsmanTooltip_buy_gender_3" text="The herdsman will only purchase male animals"/>
+		<text name="rl_ui_herdsmanTooltip_buy_gender_1" text="ИИ-пастух будет покупать только самок животных"/>
+		<text name="rl_ui_herdsmanTooltip_buy_gender_2" text="ИИ-пастух купит самок и самцов животных"/>
+		<text name="rl_ui_herdsmanTooltip_buy_gender_3" text="ИИ-пастух будет покупать только самцов животных"/>
 
-		<text name="rl_ui_herdsmanTooltip_buy_age_equal" text="The herdsman will only purchase animals that are %s old"/>
-		<text name="rl_ui_herdsmanTooltip_buy_age_range" text="The herdsman will only purchase animals that are between %s and %s old"/>
+		<text name="rl_ui_herdsmanTooltip_buy_age_equal" text="ИИ-пастух покупает только животных старше %s "/>
+		<text name="rl_ui_herdsmanTooltip_buy_age_range" text="ИИ-пастух покупает только животных старше от %s до %s "/>
 
-		<text name="rl_ui_herdsmanTooltip_buy_quality_equal" text="The herdsman will only purchase animals with %s quality"/>
-		<text name="rl_ui_herdsmanTooltip_buy_quality_range" text="The herdsman will only purchase animals with quality between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_buy_quality_equal" text="ИИ-пастух покупает только животных с качеством %s "/>
+		<text name="rl_ui_herdsmanTooltip_buy_quality_range" text="ИИ-пастух покупает только животных с качеством от %s до %s "/>
 
-		<text name="rl_ui_herdsmanTooltip_buy_fertility_equal" text="The herdsman will only purchase animals with %s fertility"/>
-		<text name="rl_ui_herdsmanTooltip_buy_fertility_range" text="The herdsman will only purchase animals with fertility between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_buy_fertility_equal" text="ИИ-пастух покупает только животных с плодовитостью %s "/>
+		<text name="rl_ui_herdsmanTooltip_buy_fertility_range" text="ИИ-пастух покупает только животных с плодовитостью от %s до %s"/>
 
-		<text name="rl_ui_herdsmanTooltip_buy_health_equal" text="The herdsman will only purchase animals with %s health"/>
-		<text name="rl_ui_herdsmanTooltip_buy_health_range" text="The herdsman will only purchase animals with health between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_buy_health_equal" text="ИИ-пастух покупает только животных со здоровьем %s "/>
+		<text name="rl_ui_herdsmanTooltip_buy_health_range" text="ИИ-пастух покупает только животных со здоровьем от %s до %s"/>
 
-		<text name="rl_ui_herdsmanTooltip_buy_productivity_equal" text="The herdsman will only purchase animals with %s productivity"/>
-		<text name="rl_ui_herdsmanTooltip_buy_productivity_range" text="The herdsman will only purchase animals with productivity between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_buy_productivity_equal" text="ИИ-пастух покупает только животных с производительностью %s "/>
+		<text name="rl_ui_herdsmanTooltip_buy_productivity_range" text="ИИ-пастух покупает только животных с производительностью от %s до %s"/>
 
-		<text name="rl_ui_herdsmanTooltip_buy_metabolism_equal" text="The herdsman will only purchase animals with %s metabolism"/>
-		<text name="rl_ui_herdsmanTooltip_buy_metabolism_range" text="The herdsman will only purchase animals with metabolism between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_buy_metabolism_equal" text="ИИ-пастух покупает только животных с метаболизмом %s "/>
+		<text name="rl_ui_herdsmanTooltip_buy_metabolism_range" text="ИИ-пастух покупает только животных с метаболизмом от %s до %s"/>
 
 
 		<!-- AI - SELLING -->
 
 
-		<text name="rl_ui_herdsmanTooltip_sell_enabled_1" text="The herdsman will not sell animals"/>
-		<text name="rl_ui_herdsmanTooltip_sell_enabled_2" text="The herdsman will sell animals"/>
+		<text name="rl_ui_herdsmanTooltip_sell_enabled_1" text="ИИ-пастух не будет продавать животных"/>
+		<text name="rl_ui_herdsmanTooltip_sell_enabled_2" text="ИИ-пастух не будет покупать животных"/>
 
-		<text name="rl_ui_herdsmanTooltip_sell_maxAnimals" text="The herdsman will sell up to %s animals per day"/>
+		<text name="rl_ui_herdsmanTooltip_sell_maxAnimals" text="ИИ-пастух будет покупать %s животных в день"/>
 
-		<text name="rl_ui_herdsmanTooltip_sell_mark_1" text="The herdsman will not mark animals to be sold"/>
-		<text name="rl_ui_herdsmanTooltip_sell_mark_2" text="The herdsman will mark animals to be sold"/>
+		<text name="rl_ui_herdsmanTooltip_sell_mark_1" text="ИИ-пастух не будет помечать животных для продажи"/>
+		<text name="rl_ui_herdsmanTooltip_sell_mark_2" text="ИИ-пастух будет помечать животных для продажи"/>
 
-		<text name="rl_ui_herdsmanTooltip_sell_diseasesSecondary_1" text="The herdsman will sell animals regardless of diseases"/>
-		<text name="rl_ui_herdsmanTooltip_sell_diseasesSecondary_2" text="The herdsman will only sell animals with a disease"/>
+		<text name="rl_ui_herdsmanTooltip_sell_diseasesSecondary_1" text="ИИ-пастух будет продавать животных независимо от их заболеваний"/>
+		<text name="rl_ui_herdsmanTooltip_sell_diseasesSecondary_2" text="ИИ-пастух будет продавать только больных животных"/>
 
-		<text name="rl_ui_herdsmanTooltip_sell_gender_1" text="The herdsman will only sell female animals"/>
-		<text name="rl_ui_herdsmanTooltip_sell_gender_2" text="The herdsman will sell female and male animals"/>
-		<text name="rl_ui_herdsmanTooltip_sell_gender_3" text="The herdsman will only sell male animals"/>
+		<text name="rl_ui_herdsmanTooltip_sell_gender_1" text="ИИ-пастух будет продавать только самок животных"/>
+		<text name="rl_ui_herdsmanTooltip_sell_gender_2" text="ИИ-пастух будет продавать самок и самцов животных"/>
+		<text name="rl_ui_herdsmanTooltip_sell_gender_3" text="ИИ-пастух будет продавать только самцов животных"/>
 
-		<text name="rl_ui_herdsmanTooltip_sell_age_equal" text="The herdsman will only sell animals that are %s old"/>
-		<text name="rl_ui_herdsmanTooltip_sell_age_range" text="The herdsman will only sell animals that are between %s and %s old"/>
+		<text name="rl_ui_herdsmanTooltip_sell_age_equal" text="ИИ-пастух будет продавать только животных старше %s "/>
+		<text name="rl_ui_herdsmanTooltip_sell_age_range" text="ИИ-пастух будет продавать только животных старше от %s до %s "/>
 
-		<text name="rl_ui_herdsmanTooltip_sell_quality_equal" text="The herdsman will only sell animals with %s quality"/>
-		<text name="rl_ui_herdsmanTooltip_sell_quality_range" text="The herdsman will only sell animals with quality between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_sell_quality_equal" text="ИИ-пастух будет продавать только животных с качеством %s "/>
+		<text name="rl_ui_herdsmanTooltip_sell_quality_range" text="ИИ-пастух будет продавать только животных с качеством от %s до %s"/>
 
-		<text name="rl_ui_herdsmanTooltip_sell_fertility_equal" text="The herdsman will only sell animals with %s fertility"/>
-		<text name="rl_ui_herdsmanTooltip_sell_fertility_range" text="The herdsman will only sell animals with fertility between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_sell_fertility_equal" text="ИИ-пастух будет продавать только животных с плодовитостью %s "/>
+		<text name="rl_ui_herdsmanTooltip_sell_fertility_range" text="ИИ-пастух будет продавать только животных с плодовитостью от %s до %s"/>
 
-		<text name="rl_ui_herdsmanTooltip_sell_health_equal" text="The herdsman will only sell animals with %s health"/>
-		<text name="rl_ui_herdsmanTooltip_sell_health_range" text="The herdsman will only sell animals with health between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_sell_health_equal" text="ИИ-пастух будет продавать только животных со здоровьем %s "/>
+		<text name="rl_ui_herdsmanTooltip_sell_health_range" text="ИИ-пастух будет продавать только животных со здоровьем от %s до %s"/>
 
-		<text name="rl_ui_herdsmanTooltip_sell_productivity_equal" text="The herdsman will only sell animals with %s productivity"/>
-		<text name="rl_ui_herdsmanTooltip_sell_productivity_range" text="The herdsman will only sell animals with productivity between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_sell_productivity_equal" text="ИИ-пастух будет продавать только животных с производительностью %s "/>
+		<text name="rl_ui_herdsmanTooltip_sell_productivity_range" text="ИИ-пастух будет продавать только животных с производительностью от %s до %s"/>
 
-		<text name="rl_ui_herdsmanTooltip_sell_metabolism_equal" text="The herdsman will only sell animals with %s metabolism"/>
-		<text name="rl_ui_herdsmanTooltip_sell_metabolism_range" text="The herdsman will only sell animals with metabolism between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_sell_metabolism_equal" text="ИИ-пастух будет продавать только животных с метаболизмом %s "/>
+		<text name="rl_ui_herdsmanTooltip_sell_metabolism_range" text="ИИ-пастух будет продавать только животных с метаболизмом от %s до %s"/>
 
 
 		<!-- AI - CASTRATING -->
 
 
-		<text name="rl_ui_herdsmanTooltip_castrate_enabled_1" text="The herdsman will not castrate animals"/>
-		<text name="rl_ui_herdsmanTooltip_castrate_enabled_2" text="The herdsman will castrate animals"/>
+		<text name="rl_ui_herdsmanTooltip_castrate_enabled_1" text="ИИ-пастух не будет кастрировать животных"/>
+		<text name="rl_ui_herdsmanTooltip_castrate_enabled_2" text="ИИ-пастух будет кастрировать животных"/>
 
-		<text name="rl_ui_herdsmanTooltip_castrate_mark_1" text="The herdsman will not mark animals for castration"/>
-		<text name="rl_ui_herdsmanTooltip_castrate_mark_2" text="The herdsman will mark animals for castration"/>
+		<text name="rl_ui_herdsmanTooltip_castrate_mark_1" text="ИИ-пастух не будет помечать животных для кастрации"/>
+		<text name="rl_ui_herdsmanTooltip_castrate_mark_2" text="ИИ-пастух будет помечать животных для кастрации"/>
 
-		<text name="rl_ui_herdsmanTooltip_castrate_diseasesSecondary_1" text="The herdsman will castrate animals regardless of diseases"/>
-		<text name="rl_ui_herdsmanTooltip_castrate_diseasesSecondary_2" text="The herdsman will only castrate animals with a disease"/>
+		<text name="rl_ui_herdsmanTooltip_castrate_diseasesSecondary_1" text="ИИ-пастух будет кастрировать животных независимо от наличия заболеваний"/>
+		<text name="rl_ui_herdsmanTooltip_castrate_diseasesSecondary_2" text="ИИ-пастух будет кастрировать только больных животных"/>
 
-		<text name="rl_ui_herdsmanTooltip_castrate_age_equal" text="The herdsman will only castrate animals that are %s old"/>
-		<text name="rl_ui_herdsmanTooltip_castrate_age_range" text="The herdsman will only castrate animals that are between %s and %s old"/>
+		<text name="rl_ui_herdsmanTooltip_castrate_age_equal" text="ИИ-пастух будет кастрировать животных старше %s "/>
+		<text name="rl_ui_herdsmanTooltip_castrate_age_range" text="ИИ-пастух будет кастрировать животных возрастом от %s до %s "/>
 
-		<text name="rl_ui_herdsmanTooltip_castrate_quality_equal" text="The herdsman will only castrate animals with %s quality"/>
-		<text name="rl_ui_herdsmanTooltip_castrate_quality_range" text="The herdsman will only castrate animals with quality between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_castrate_quality_equal" text="ИИ-пастух будет кастрировать животных с качеством %s "/>
+		<text name="rl_ui_herdsmanTooltip_castrate_quality_range" text="ИИ-пастух будет кастрировать животных с качеством от %s до %s"/>
 
-		<text name="rl_ui_herdsmanTooltip_castrate_fertility_equal" text="The herdsman will only castrate animals with %s fertility"/>
-		<text name="rl_ui_herdsmanTooltip_castrate_fertility_range" text="The herdsman will only castrate animals with fertility between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_castrate_fertility_equal" text="ИИ-пастух будет кастрировать животных с плодовитостью %s "/>
+		<text name="rl_ui_herdsmanTooltip_castrate_fertility_range" text="ИИ-пастух будет кастрировать животных с плодовитостью от %s до %s"/>
 
-		<text name="rl_ui_herdsmanTooltip_castrate_health_equal" text="The herdsman will only castrate animals with %s health"/>
-		<text name="rl_ui_herdsmanTooltip_castrate_health_range" text="The herdsman will only castrate animals with health between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_castrate_health_equal" text="ИИ-пастух будет кастрировать животных со здоровьем %s "/>
+		<text name="rl_ui_herdsmanTooltip_castrate_health_range" text="ИИ-пастух будет кастрировать животных со здоровьем от %s до %s"/>
 
-		<text name="rl_ui_herdsmanTooltip_castrate_productivity_equal" text="The herdsman will only castrate animals with %s productivity"/>
-		<text name="rl_ui_herdsmanTooltip_castrate_productivity_range" text="The herdsman will only castrate animals with productivity between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_castrate_productivity_equal" text="ИИ-пастух будет кастрировать животных с производительностью %s "/>
+		<text name="rl_ui_herdsmanTooltip_castrate_productivity_range" text="ИИ-пастух будет кастрировать животных с производительностью от %s до %s"/>
 
-		<text name="rl_ui_herdsmanTooltip_castrate_metabolism_equal" text="The herdsman will only castrate animals with %s metabolism"/>
-		<text name="rl_ui_herdsmanTooltip_castrate_metabolism_range" text="The herdsman will only castrate animals with metabolism between %s and %s"/>
+		<text name="rl_ui_herdsmanTooltip_castrate_metabolism_equal" text="ИИ-пастух будет кастрировать животных с метаболизмом %s "/>
+		<text name="rl_ui_herdsmanTooltip_castrate_metabolism_range" text="ИИ-пастух будет кастрировать животных с метаболизмом от %s до %s"/>
 
 
 		<!-- AI - NAMING -->
 
 
-		<text name="rl_ui_herdsmanTooltip_naming_enabled_1" text="The herdsman will not name animals"/>
-		<text name="rl_ui_herdsmanTooltip_naming_enabled_2" text="The herdsman will name animals"/>
+		<text name="rl_ui_herdsmanTooltip_naming_enabled_1" text="ИИ-пастух не будет давать животным имен"/>
+		<text name="rl_ui_herdsmanTooltip_naming_enabled_2" text="ИИ-пастух будет давать животным имена"/>
 
-		<text name="rl_ui_herdsmanTooltip_naming_convention_1" text="The herdsman will name animals randomly"/>
-		<text name="rl_ui_herdsmanTooltip_naming_convention_2" text="The herdsman will name animals alphabetically"/>
+		<text name="rl_ui_herdsmanTooltip_naming_convention_1" text="ИИ-пастух будет давать животным имена случайным образом"/>
+		<text name="rl_ui_herdsmanTooltip_naming_convention_2" text="ИИ-пастух будет давать животным имена по алфавиту"/>
 
 
 		<!-- AI - AI -->
